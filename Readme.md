@@ -3,6 +3,8 @@
 Test case demonstrating confused tape execution order when multiple tape
 installations exist.
 
+See https://github.com/substack/tape/issues/325
+
 ### Instructions
 ```
 git clone git@github.com:timoxley/test-tape-multiple-instances.git

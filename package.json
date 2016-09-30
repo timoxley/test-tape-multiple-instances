@@ -1,0 +1,16 @@
+{
+  "name": "test-tape-multiple-instances",
+  "version": "1.0.0",
+  "description": "a failing test case for tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape a b",
+    "postinstall": "(cd a && npm install) && (cd b && npm install)"
+  },
+  "keywords": [],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.1"
+  }
+}
